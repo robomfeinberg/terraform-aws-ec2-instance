@@ -133,6 +133,6 @@ variable "public_ip" {
   default = []
 }
 
-variable "provisioner" {
+variable "rprovisioner" {
   default = []
 }
