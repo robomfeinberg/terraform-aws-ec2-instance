@@ -128,3 +128,11 @@ variable "cpu_credits" {
   description = "The credit option for CPU usage (unlimited or standard)"
   default     = "standard"
 }
+
+variable "public_ip" {
+  default = []
+}
+
+variable "provisioner" {
+  default = []
+}
